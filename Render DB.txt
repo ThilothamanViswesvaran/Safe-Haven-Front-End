@@ -1,0 +1,5 @@
+psql -h dpg-cv4qcvofnakc73brq16g-a.oregon-postgres.render.com -U user safe_haven_db
+
+5Z0kSfjzLjB7tpU3eJYCJg7poTEwNnAI
+
+select * from users;

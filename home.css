@@ -1,0 +1,147 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-2 {
+    position: relative;
+    height: 123vh; 
+    width: 100%;
+    overflow: hidden;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0;
+    z-index: -1;
+}
+
+.lines {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+
+.circle{
+    position: absolute;
+    left: 62%;
+    bottom: 23%;
+    width: 11%;
+    z-index: 3
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header img {
+    height: 28px;
+    margin-right: 10px;
+}
+
+.tagline {
+    text-align: center;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.tagline-1 {
+    text-align: center;
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    color: white;
+    font-size: 17px;
+    opacity: 0.5;
+}
+
+.table{
+    position: absolute;
+    top: 15.8%;       
+    left: 32%;
+    bottom: 0;
+    z-index: 2;     
+    max-width: 100%; 
+    height: 110%;
+}
+
+.login-header{
+    text-align: center;
+    position: absolute;
+    top: 4%;
+    left: 90%;
+    transform: translateX(-50%);
+    z-index: 5;
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.signup-header{
+    text-align: center;
+    position: absolute;
+    top: 4%;
+    left: 95%;
+    transform: translateX(-50%);
+    z-index: 5;
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.search-bar{
+    font-size: 19px;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 6;
+    height: 50px;
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    outline: none;
+    color: white; 
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.search-bar{
+    background-color: rgba(255, 255, 255, 0.2); 
+    border: 0.5px solid white;
+    color: rgb(255, 255, 255); 
+    font-size: 17px;
+}
